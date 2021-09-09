@@ -51,7 +51,7 @@ function WatchPage({ type, id }) {
               <h1>{nameList[0]}</h1>
               <h2>Source: Youtube</h2>
               <div>
-                <a href="!"
+                <a href="#!"
                   onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=https://www.youtube.com/watch?v=${keyList[0]}`)}
                   class="fb-share-button"
                   target="_blank"

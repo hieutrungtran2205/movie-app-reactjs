@@ -158,7 +158,7 @@ function DetailMovie({ id, type, getCastId }) {
                 <div className="level genres">
                   <div className="level-left">
                     <div className="level-item">
-                      <a href="!" onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=https://www.youtube.com/watch?v=${keyList[0]}`)}>
+                      <a href="#!" onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=https://www.youtube.com/watch?v=${keyList[0]}`)}>
                         <FacebookIcon />
                         Chia sẻ
                       </a>
