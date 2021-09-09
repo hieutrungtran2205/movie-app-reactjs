@@ -1,0 +1,99 @@
+.nav-wrapper {
+  background-color: #0c2738;
+}
+
+.brand-logo {
+  margin-left: 240px;
+}
+
+.right {
+  margin-right: 240px;
+}
+
+.fa-film {
+  font-size: 32px;
+  color: #f1b722;
+}
+
+.fa-search {
+  margin-right: 4px;
+  color: #f1b722;
+}
+
+.imdb {
+  margin-top: -4px;
+}
+
+.fa-imdb {
+  font-size: 24px;
+  margin-left: 4px;
+  color: #f1b722;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.selected {
+  border-bottom: 3px solid #f1b722;
+}
+
+.nav-content {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .brand-logo {
+    margin-left: 0;
+    width: 240px;
+  }
+
+  .nav-wrapper .fa-film {
+    margin-top: 10px;
+  }
+
+  .nav-content {
+    display: block;
+  }
+
+  .tab {
+    width: 27%;
+    background-color: #0c2738;
+  }
+
+  .tabs .tab a {
+    font-size: 12px;
+    -webkit-tap-highlight-color: none;
+    text-transform: none;
+  }
+
+  .tabs .tab a:focus,
+  .tabs .tab a:focus.active {
+    background-color: #0c2738;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .brand-logo {
+    margin-left: 0;
+    width: 240px;
+  }
+
+  .nav-content {
+    display: block;
+  }
+
+  .tab {
+    background-color: #0c2738;
+  }
+
+  .tabs .tab a {
+    -webkit-tap-highlight-color: none;
+    text-transform: none;
+  }
+
+  .tabs .tab a:focus,
+  .tabs .tab a:focus.active {
+    background-color: #0c2738;
+  }
+}

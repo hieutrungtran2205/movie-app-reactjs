@@ -1,0 +1,121 @@
+.cast-section {
+  margin-top: 50px;
+  padding: 48px 0;
+}
+.cast-details {
+  display: flex;
+}
+.cast-details .column {
+  display: block;
+  padding: 0.75rem;
+}
+.cast-details .column.small {
+  flex: none;
+  width: 25%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.column.small img {
+  height: auto;
+  max-width: 100%;
+}
+.column.small h3 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.125;
+  margin-bottom: 1.5rem;
+}
+.column.small dt {
+  font-weight: 700;
+  color: #9a9a9a;
+}
+.column.small dd {
+  margin-bottom: 1.2em;
+  color: #dbdbdb;
+}
+
+.column.main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.column.main h1 {
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.125;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+.column.main h3 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.125;
+  margin-bottom: 1.5rem;
+}
+.bio {
+  color: #dbdbdb !important;
+  margin-bottom: 2em;
+  line-height: 26px;
+}
+.column.main .poster-item {
+  padding: 8px;
+}
+.column.main .poster-name {
+  height: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.cast-image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cast-img {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.cast-section h5 {
+  margin-left: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .cast-details {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  .cast-details .column.small {
+    width: 100%;
+  }
+
+  .cast-section h5 {
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .cast-details {
+    flex-direction: column;
+    margin: 0 -20px;
+  }
+  .cast-details .column.small {
+    width: 100%;
+  }
+  .cast-details img {
+    display: block;
+    margin: 0 auto;
+  }
+  .cast-section h5 {
+    margin-left: 80px;
+  }
+  .column.small h3,
+  dl {
+    margin-left: 160px;
+  }
+}

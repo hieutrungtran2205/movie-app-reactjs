@@ -1,0 +1,72 @@
+.card img {
+  width: 230px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.card-content {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+.card p {
+}
+
+.card {
+  height: 430px;
+  width: 230px;
+  background-color: #081b27;
+  box-shadow: 0;
+  -webkit-box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+}
+
+.title h5 {
+  color: #f1b722;
+  margin-left: 250px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.vote {
+  position: absolute;
+  left: 0;
+  top: -12px;
+  right: 0;
+  display: block;
+  width: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2px;
+  border-radius: 40px;
+  background-color: #f1b722;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    margin-left: 20%;
+  }
+
+  .title h5 {
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .title h5 {
+    margin-top: 80px;
+  }
+}
