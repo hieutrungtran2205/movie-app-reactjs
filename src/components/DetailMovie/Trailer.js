@@ -64,7 +64,7 @@ const Trailer = ({ id, type }) => {
         breakpoint: 600,
         settings: {
           arrows: true,
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 3,
           initialSlide: 3,
         },
