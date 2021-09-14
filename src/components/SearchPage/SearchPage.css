@@ -14,7 +14,7 @@ input[type="text"]:not(.browser-default):focus:not([readonly]) {
 
 @media only screen and (max-width: 767px) {
   .input-field {
-    width: 350px;
+    width: 300px;
     margin-top: 80px;
   }
 }

@@ -32,6 +32,7 @@ const Cast = ({ id, type, getCastId }) => {
             alt=""
           />
         </figure>
+
         <p className="name">{actor.name}</p>
         <p className="character">{actor.character}</p>
       </div>

@@ -371,11 +371,11 @@
 
 @media only screen and (max-width: 767px) {
   .main-column {
-    margin-left: 20px;
+    margin-left: 8px;
   }
 
   .poster-column {
-    margin-left: 50px;
+    margin-left: 32px;
   }
 
   .section .tt-detail {
@@ -393,17 +393,13 @@
     left: -30px;
   }
   .slick-next {
-    right: -90px;
+    right: -100px;
   }
 
   .item figure {
     margin: 0 auto;
     height: 80px;
     width: 80px;
-  }
-
-  .item {
-    margin-left: 10px;
   }
 
   .slick-list {

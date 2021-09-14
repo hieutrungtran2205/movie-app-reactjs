@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import CountrySelect from "./CountrySelect";
 import "./FilterMovie.css";
 import GenreSelect from "./GenreSelect";
