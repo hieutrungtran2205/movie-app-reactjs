@@ -21,9 +21,7 @@ function Footer() {
 
           </div>
           <div className="footer-copyright">
-            <a href="#!" onClick={() => window.open("https://www.facebook.com/hieutrungtran2205")}>
-              © 2021 Copyright HieuTrungTran
-            </a>
+            © 2021 Copyright RoyalMovie
           </div>
         </div>
       </footer>
