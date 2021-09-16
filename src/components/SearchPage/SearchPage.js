@@ -1,13 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import Poster from "../Poster/Poster";
 import "./SearchPage.css";
-// import { useHistory } from "react-router";
 
 function SearchPage({ getId }) {
   const [dataSearch, setDataSearch] = useState([]);
   const [query, setQuery] = useState("");
   const typingTimeoutRef = useRef(null);
-  // const history = useHistory();
+
   useEffect(() => {
     const fetchMovie = async (searchKey) => {
       const queryString = searchKey.replace(" ", "+");
@@ -29,8 +28,7 @@ function SearchPage({ getId }) {
     }
     typingTimeoutRef.current = setTimeout(() => {
       setQuery(value);
-      // history.push(`/search/${value}`)
-    }, 2000);
+    }, 1000);
   };
   return (
     <div>
