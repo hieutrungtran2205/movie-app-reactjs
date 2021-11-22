@@ -1,4 +1,4 @@
-import React from 'react';
+ruimport React from 'react';
 import './Footer.css';
 
 function Footer() {
@@ -21,7 +21,7 @@ function Footer() {
 
           </div>
           <div className="footer-copyright">
-            © 2021 Copyright RoyalMovie
+            © Create by HieuTrungTran
           </div>
         </div>
       </footer>
